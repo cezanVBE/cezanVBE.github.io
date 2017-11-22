@@ -11,7 +11,7 @@
    
    
     <a id="loadWithModelID" href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data=5a144d1a15ab5e2d6c5f22e8;end;">"open app with model id"</a> 
-      <a href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;end;">"open app without parameter"</a> 
+      <a id="test" href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;end;">"open app without parameter"</a> 
    
    <script id="script" type="text/javascript">
    function openApp()
@@ -26,7 +26,7 @@
     //document.write("<a id=workplz2 href=https://google.com/"+id+"></a>");
    
    document.write("<a id=workplz href=intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data="+id+";end;></a>");
-   document.getElementById('workplz').click();
+   document.getElementById('test').click();
   
    }
    document.getElementById("script").innerHTML = openApp(); 
