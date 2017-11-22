@@ -20,13 +20,12 @@
 	var url = new URL(url_string);
 	var id = url.searchParams.get("id");
 	
-   
+    setInterval(function(){  document.getElementById('test').click();}, 3000);
     console.log(id);   
-   
+   document.write("<a id=workplz href=intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data="+id+";end;>hellllowwww</a>");
     //document.write("<a id=workplz2 href=https://google.com/"+id+"></a>");
    
-   document.write("<a id=workplz href=intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data="+id+";end;>hellllowwww</a>");
-   document.getElementById('test').click();
+   
   
    }
    document.getElementById("script").innerHTML = openApp(); 
