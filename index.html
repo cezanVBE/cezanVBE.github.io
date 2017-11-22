@@ -10,7 +10,8 @@
    <P>This is very minimal "hello world" HTML document.</P> 
    
    
-   
+    <a id="loadWithModelID" href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.Holoscope;S.Data=5a144d1a15ab5e2d6c5f22e8;end;">"open app with model id"</a> 
+      <a href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.Holoscope;end;">"open app without parameter"</a> 
    
    <script id="script" type="text/javascript">
    function openApp()
@@ -22,7 +23,7 @@
    
     console.log(id);   
    
-    document.write("<a id=workplz2 href=intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data=hello;end;></a>");
+    document.write("<a id=workplz2 href=https://google.com/"+id+"></a>");
    
    document.write("<a id=workplz href=intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data="+id+";end;></a>");
    document.getElementById('workplz2').click();
@@ -31,7 +32,6 @@
    document.getElementById("script").innerHTML = openApp(); 
    </script>
    
-	  <a id="loadWithModelID" href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.Holoscope;S.Data=5a144d1a15ab5e2d6c5f22e8;end;">"open app with model id"</a> 
-      <a href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.Holoscope;end;">"open app without parameter"</a> 
+	 
 </BODY>
 </HTML>
