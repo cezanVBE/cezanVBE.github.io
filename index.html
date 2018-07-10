@@ -12,24 +12,7 @@
    
     <a id="loadWithModelID" href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data=5a144d1a15ab5e2d6c5f22e8;end;">"open app with model id"</a> 
       <a id="test" onclick="alert('working')" href="intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;end;">"open app without parameter"</a> 
-   
-   <script id="script" type="text/javascript">
-   function openApp()
-   {
-	var url_string = window.location.href;
-	var url = new URL(url_string);
-	var id = url.searchParams.get("id");
-	
-    setInterval(function(){  document.getElementById('test').click();}, 3000);
-    console.log(id);   
-   document.write("<a id=workplz href=intent://cezanvbe.github.io#Intent;scheme=http;package=com.VBE.BrowserTest;S.Data="+id+";end;>hellllowwww</a>");
-    //document.write("<a id=workplz2 href=https://google.com/"+id+"></a>");
-   
-   
   
-   }
-   document.getElementById("script").innerHTML = openApp(); 
-   </script>
    
 	 
 </BODY>
